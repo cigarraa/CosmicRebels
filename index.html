@@ -42,11 +42,33 @@
             font-size: 18px;
             color: #ff4081;
         }
+
+        .botao {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: transparent;
+            border: 2px solid #00ffe5;
+            border-radius: 8px ;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #00ffe5;
+        }
+
+        .botao:hover {
+            background-color: #00ffe5;
+            color: #000 ;
+            box-shadow: 0 0 20px #00ffe5;
+        }
     </style>
 </head>
 <body>
     <h1>Cosmic Rebels</h1>
     <p>A galáxia entrou em colapso. Um último grupo de rebeldes tenta salvar a estrela mãe antes que o tempo acabe.</p>
     <div class="data">em breve nos cinemas  da via lactea</div> 
+    <button class="botao" onclick="alert('trailer ainda em produção...🚀')">Assistir trailer</button>
 </body>
 </html>
